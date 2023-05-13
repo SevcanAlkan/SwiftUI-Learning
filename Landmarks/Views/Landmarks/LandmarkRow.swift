@@ -26,16 +26,23 @@ struct LandmarkRow: View {
                 .shadow(radius: 7)
             Text (landmark.name)
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
 
-struct LandmarkRow_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            LandmarkRow(landmark: landmarks[0])
-            LandmarkRow(landmark: landmarks[1])
-        }
-        .previewLayout(.fixed(width: 300, height: 70))
-    }
-}
+//struct LandmarkRow_Previews: PreviewProvider {
+//    static var landmarks = ModelData().landmarks
+//
+//    static var previews: some View {
+//        Group {
+//            LandmarkRow(landmark: landmarks[0])
+//            LandmarkRow(landmark: landmarks[1])
+//        }
+//        .previewLayout(.fixed(width: 300, height: 70))
+//    }
+//}
