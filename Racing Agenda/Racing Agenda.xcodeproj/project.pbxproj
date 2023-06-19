@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBB8C35829D8E2EF00FF3250 /* Racing_AgendaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8C35729D8E2EF00FF3250 /* Racing_AgendaApp.swift */; };
+		BBB8C35A29D8E2EF00FF3250 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8C35929D8E2EF00FF3250 /* ContentView.swift */; };
+		BBB8C35C29D8E2F000FF3250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB8C35B29D8E2F000FF3250 /* Assets.xcassets */; };
+		BBB8C35F29D8E2F000FF3250 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB8C35E29D8E2F000FF3250 /* Preview Assets.xcassets */; };
+		BBB8C36929D8E2F000FF3250 /* Racing_AgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8C36829D8E2F000FF3250 /* Racing_AgendaTests.swift */; };
+		BBB8C37329D8E2F000FF3250 /* Racing_AgendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8C37229D8E2F000FF3250 /* Racing_AgendaUITests.swift */; };
+		BBB8C37529D8E2F000FF3250 /* Racing_AgendaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8C37429D8E2F000FF3250 /* Racing_AgendaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBB8C36529D8E2F000FF3250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB8C34C29D8E2EF00FF3250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB8C35329D8E2EF00FF3250;
+			remoteInfo = "Racing Agenda";
+		};
+		BBB8C36F29D8E2F000FF3250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB8C34C29D8E2EF00FF3250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB8C35329D8E2EF00FF3250;
+			remoteInfo = "Racing Agenda";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBB8C35429D8E2EF00FF3250 /* Racing Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Racing Agenda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB8C35729D8E2EF00FF3250 /* Racing_AgendaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing_AgendaApp.swift; sourceTree = "<group>"; };
+		BBB8C35929D8E2EF00FF3250 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBB8C35B29D8E2F000FF3250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBB8C35E29D8E2F000FF3250 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBB8C36429D8E2F000FF3250 /* Racing AgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Racing AgendaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB8C36829D8E2F000FF3250 /* Racing_AgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing_AgendaTests.swift; sourceTree = "<group>"; };
+		BBB8C36E29D8E2F000FF3250 /* Racing AgendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Racing AgendaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB8C37229D8E2F000FF3250 /* Racing_AgendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing_AgendaUITests.swift; sourceTree = "<group>"; };
+		BBB8C37429D8E2F000FF3250 /* Racing_AgendaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing_AgendaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBB8C35129D8E2EF00FF3250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB8C36129D8E2F000FF3250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB8C36B29D8E2F000FF3250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB8C34B29D8E2EF00FF3250 = {
+			isa = PBXGroup;
+			children = (
+				BBB8C35629D8E2EF00FF3250 /* Racing Agenda */,
+				BBB8C36729D8E2F000FF3250 /* Racing AgendaTests */,
+				BBB8C37129D8E2F000FF3250 /* Racing AgendaUITests */,
+				BBB8C35529D8E2EF00FF3250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB8C35529D8E2EF00FF3250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBB8C35429D8E2EF00FF3250 /* Racing Agenda.app */,
+				BBB8C36429D8E2F000FF3250 /* Racing AgendaTests.xctest */,
+				BBB8C36E29D8E2F000FF3250 /* Racing AgendaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB8C35629D8E2EF00FF3250 /* Racing Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				BBB8C35729D8E2EF00FF3250 /* Racing_AgendaApp.swift */,
+				BBB8C35929D8E2EF00FF3250 /* ContentView.swift */,
+				BBB8C35B29D8E2F000FF3250 /* Assets.xcassets */,
+				BBB8C35D29D8E2F000FF3250 /* Preview Content */,
+			);
+			path = "Racing Agenda";
+			sourceTree = "<group>";
+		};
+		BBB8C35D29D8E2F000FF3250 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBB8C35E29D8E2F000FF3250 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBB8C36729D8E2F000FF3250 /* Racing AgendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB8C36829D8E2F000FF3250 /* Racing_AgendaTests.swift */,
+			);
+			path = "Racing AgendaTests";
+			sourceTree = "<group>";
+		};
+		BBB8C37129D8E2F000FF3250 /* Racing AgendaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB8C37229D8E2F000FF3250 /* Racing_AgendaUITests.swift */,
+				BBB8C37429D8E2F000FF3250 /* Racing_AgendaUITestsLaunchTests.swift */,
+			);
+			path = "Racing AgendaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBB8C35329D8E2EF00FF3250 /* Racing Agenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB8C37829D8E2F000FF3250 /* Build configuration list for PBXNativeTarget "Racing Agenda" */;
+			buildPhases = (
+				BBB8C35029D8E2EF00FF3250 /* Sources */,
+				BBB8C35129D8E2EF00FF3250 /* Frameworks */,
+				BBB8C35229D8E2EF00FF3250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Racing Agenda";
+			productName = "Racing Agenda";
+			productReference = BBB8C35429D8E2EF00FF3250 /* Racing Agenda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBB8C36329D8E2F000FF3250 /* Racing AgendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB8C37B29D8E2F000FF3250 /* Build configuration list for PBXNativeTarget "Racing AgendaTests" */;
+			buildPhases = (
+				BBB8C36029D8E2F000FF3250 /* Sources */,
+				BBB8C36129D8E2F000FF3250 /* Frameworks */,
+				BBB8C36229D8E2F000FF3250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB8C36629D8E2F000FF3250 /* PBXTargetDependency */,
+			);
+			name = "Racing AgendaTests";
+			productName = "Racing AgendaTests";
+			productReference = BBB8C36429D8E2F000FF3250 /* Racing AgendaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBB8C36D29D8E2F000FF3250 /* Racing AgendaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB8C37E29D8E2F000FF3250 /* Build configuration list for PBXNativeTarget "Racing AgendaUITests" */;
+			buildPhases = (
+				BBB8C36A29D8E2F000FF3250 /* Sources */,
+				BBB8C36B29D8E2F000FF3250 /* Frameworks */,
+				BBB8C36C29D8E2F000FF3250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB8C37029D8E2F000FF3250 /* PBXTargetDependency */,
+			);
+			name = "Racing AgendaUITests";
+			productName = "Racing AgendaUITests";
+			productReference = BBB8C36E29D8E2F000FF3250 /* Racing AgendaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB8C34C29D8E2EF00FF3250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BBB8C35329D8E2EF00FF3250 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					BBB8C36329D8E2F000FF3250 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BBB8C35329D8E2EF00FF3250;
+					};
+					BBB8C36D29D8E2F000FF3250 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BBB8C35329D8E2EF00FF3250;
+					};
+				};
+			};
+			buildConfigurationList = BBB8C34F29D8E2EF00FF3250 /* Build configuration list for PBXProject "Racing Agenda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBB8C34B29D8E2EF00FF3250;
+			productRefGroup = BBB8C35529D8E2EF00FF3250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBB8C35329D8E2EF00FF3250 /* Racing Agenda */,
+				BBB8C36329D8E2F000FF3250 /* Racing AgendaTests */,
+				BBB8C36D29D8E2F000FF3250 /* Racing AgendaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB8C35229D8E2EF00FF3250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB8C35F29D8E2F000FF3250 /* Preview Assets.xcassets in Resources */,
+				BBB8C35C29D8E2F000FF3250 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB8C36229D8E2F000FF3250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB8C36C29D8E2F000FF3250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBB8C35029D8E2EF00FF3250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB8C35A29D8E2EF00FF3250 /* ContentView.swift in Sources */,
+				BBB8C35829D8E2EF00FF3250 /* Racing_AgendaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB8C36029D8E2F000FF3250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB8C36929D8E2F000FF3250 /* Racing_AgendaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB8C36A29D8E2F000FF3250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB8C37529D8E2F000FF3250 /* Racing_AgendaUITestsLaunchTests.swift in Sources */,
+				BBB8C37329D8E2F000FF3250 /* Racing_AgendaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBB8C36629D8E2F000FF3250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB8C35329D8E2EF00FF3250 /* Racing Agenda */;
+			targetProxy = BBB8C36529D8E2F000FF3250 /* PBXContainerItemProxy */;
+		};
+		BBB8C37029D8E2F000FF3250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB8C35329D8E2EF00FF3250 /* Racing Agenda */;
+			targetProxy = BBB8C36F29D8E2F000FF3250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBB8C37629D8E2F000FF3250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBB8C37729D8E2F000FF3250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBB8C37929D8E2F000FF3250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Racing Agenda/Preview Content\"";
+				DEVELOPMENT_TEAM = PALQAW7PF2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sevcanalkan.Racing-Agenda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBB8C37A29D8E2F000FF3250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Racing Agenda/Preview Content\"";
+				DEVELOPMENT_TEAM = PALQAW7PF2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sevcanalkan.Racing-Agenda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBB8C37C29D8E2F000FF3250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PALQAW7PF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sevcanalkan.Racing-AgendaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Racing Agenda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Racing Agenda";
+			};
+			name = Debug;
+		};
+		BBB8C37D29D8E2F000FF3250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PALQAW7PF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sevcanalkan.Racing-AgendaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Racing Agenda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Racing Agenda";
+			};
+			name = Release;
+		};
+		BBB8C37F29D8E2F000FF3250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PALQAW7PF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sevcanalkan.Racing-AgendaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Racing Agenda";
+			};
+			name = Debug;
+		};
+		BBB8C38029D8E2F000FF3250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PALQAW7PF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sevcanalkan.Racing-AgendaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Racing Agenda";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBB8C34F29D8E2EF00FF3250 /* Build configuration list for PBXProject "Racing Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB8C37629D8E2F000FF3250 /* Debug */,
+				BBB8C37729D8E2F000FF3250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB8C37829D8E2F000FF3250 /* Build configuration list for PBXNativeTarget "Racing Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB8C37929D8E2F000FF3250 /* Debug */,
+				BBB8C37A29D8E2F000FF3250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB8C37B29D8E2F000FF3250 /* Build configuration list for PBXNativeTarget "Racing AgendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB8C37C29D8E2F000FF3250 /* Debug */,
+				BBB8C37D29D8E2F000FF3250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB8C37E29D8E2F000FF3250 /* Build configuration list for PBXNativeTarget "Racing AgendaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB8C37F29D8E2F000FF3250 /* Debug */,
+				BBB8C38029D8E2F000FF3250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBB8C34C29D8E2EF00FF3250 /* Project object */;
+}
