@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SalesTax" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sales Tax Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCu-41-GMr">
+                                <rect key="frame" x="12" y="62" width="351" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before Tax Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJT-8Y-CCT">
+                                <rect key="frame" x="11.999999999999993" y="135.66666666666666" width="123.33333333333331" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sales Tax Rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARf-dL-IfH">
+                                <rect key="frame" x="12" y="176.66666666666666" width="111" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After Tax Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJS-gC-jhm">
+                                <rect key="frame" x="12" y="217.66666666666666" width="111" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UiW-Mg-qQD">
+                                <rect key="frame" x="143.33333333333337" y="129.33333333333334" width="219.66666666666663" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="beforeTaxPriceChange:" destination="BYZ-38-t0r" eventType="editingChanged" id="Pmg-7H-OpO"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QvH-Ek-5ZW">
+                                <rect key="frame" x="131" y="170.33333333333334" width="232" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="salesTaxRateChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="MbL-NV-NTT"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YB8-OH-ZWg">
+                                <rect key="frame" x="131" y="211.33333333333334" width="232" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iZ-Wb-A2L">
+                                <rect key="frame" x="140" y="285.33333333333331" width="95" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Calculate"/>
+                                <connections>
+                                    <action selector="calculateOnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EdO-lU-9Cm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gCu-41-GMr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="0sF-Tu-iWn"/>
+                            <constraint firstItem="mJS-gC-jhm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="3Jn-Je-oSk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YB8-OH-ZWg" secondAttribute="trailing" constant="12" id="IV5-W0-1nI"/>
+                            <constraint firstItem="QvH-Ek-5ZW" firstAttribute="leading" secondItem="ARf-dL-IfH" secondAttribute="trailing" constant="8" id="JWQ-75-uBe"/>
+                            <constraint firstItem="UiW-Mg-qQD" firstAttribute="centerY" secondItem="ZJT-8Y-CCT" secondAttribute="centerY" id="K7p-tK-wIy"/>
+                            <constraint firstItem="mJS-gC-jhm" firstAttribute="top" secondItem="ARf-dL-IfH" secondAttribute="bottom" constant="20" id="N00-WV-hzq"/>
+                            <constraint firstItem="gCu-41-GMr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NkW-T2-d8V"/>
+                            <constraint firstItem="YB8-OH-ZWg" firstAttribute="centerY" secondItem="mJS-gC-jhm" secondAttribute="centerY" id="Nua-f6-GML"/>
+                            <constraint firstItem="9iZ-Wb-A2L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SzF-ZB-Oam"/>
+                            <constraint firstItem="ARf-dL-IfH" firstAttribute="top" secondItem="ZJT-8Y-CCT" secondAttribute="bottom" constant="20" id="Vvm-Mr-hYg"/>
+                            <constraint firstItem="gCu-41-GMr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="bvM-7E-q8b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UiW-Mg-qQD" secondAttribute="trailing" constant="12" id="cgC-wg-Of5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QvH-Ek-5ZW" secondAttribute="trailing" constant="12" id="gQW-r4-SM8"/>
+                            <constraint firstItem="ZJT-8Y-CCT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="gze-8R-Csc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gCu-41-GMr" secondAttribute="trailing" constant="12" id="jvn-N2-EzJ"/>
+                            <constraint firstItem="QvH-Ek-5ZW" firstAttribute="centerY" secondItem="ARf-dL-IfH" secondAttribute="centerY" id="lBX-CH-kbs"/>
+                            <constraint firstItem="UiW-Mg-qQD" firstAttribute="centerY" secondItem="ZJT-8Y-CCT" secondAttribute="centerY" id="n3d-vc-Igp"/>
+                            <constraint firstItem="ARf-dL-IfH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="nVs-Hd-z6d"/>
+                            <constraint firstItem="YB8-OH-ZWg" firstAttribute="leading" secondItem="mJS-gC-jhm" secondAttribute="trailing" constant="8" id="oZK-2J-6RQ"/>
+                            <constraint firstItem="9iZ-Wb-A2L" firstAttribute="top" secondItem="YB8-OH-ZWg" secondAttribute="bottom" constant="40" id="p1k-yK-iN9"/>
+                            <constraint firstItem="ZJT-8Y-CCT" firstAttribute="top" secondItem="gCu-41-GMr" secondAttribute="bottom" constant="40" id="uoM-BC-FBs"/>
+                            <constraint firstItem="UiW-Mg-qQD" firstAttribute="leading" secondItem="ZJT-8Y-CCT" secondAttribute="trailing" constant="8" id="xXC-dK-LWK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="afterTaxPriceTextField" destination="YB8-OH-ZWg" id="bs3-0y-BEm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
